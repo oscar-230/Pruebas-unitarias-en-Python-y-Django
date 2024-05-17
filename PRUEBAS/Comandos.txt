@@ -1,0 +1,43 @@
+CREAR ENTORNO VIRTUAL
+python -m venv venv
+
+DEPENDENCIAS
+pip install -r requirements.txt
+
+INSTLACCION PYTEST DJANGO
+pip install pytest pytest-django
+
+
+ACTUALIZACIONES PYTEST
+pip install --upgrade pytest
+
+
+CREAR ENTORNO VIRTUAL
+python -m venv venv
+
+
+ACTIVAR ENTORNO VIRTUAL
+.\venv\Scripts\activate
+
+ACTIVAR ENTORNO VIRTUAL
+deactivate
+
+
+EJECUTAR MIGRACIONES
+python manage.py makemigrations
+python manage.py migrate
+
+EJECTUAR SERVIDOR 
+python manage.py runserver
+
+TESTS DJANGO 
+
+python manage.py test App.tests.test_views
+python manage.py test App.tests.test_models
+python manage.py test App.tests.test_forms
+
+TEST PYTEST
+
+pytest App/tests/test_operaciones.py
+
+
